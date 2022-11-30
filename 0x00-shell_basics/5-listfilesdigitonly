@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lagG
+ls -n -a
