@@ -1,6 +1,3 @@
 #!/bin/bash
 <<<<<<< HEAD
 cat /etc/ssh/sshd_config | grep -i ^[[:alpha:]]
-=======
-grep -w "^[a,z]" /etc/ssh/sshd_config 
->>>>>>> d1fb2dd0037cf70353161e912201d3fab6f65e39
