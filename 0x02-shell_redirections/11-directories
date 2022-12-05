@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -maxdepth 1 -type d | wc -l
+find .fun_with_the_shell/* -maxdepth 1 -type d | wc -l
