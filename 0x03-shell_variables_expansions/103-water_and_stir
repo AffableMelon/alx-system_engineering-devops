@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((water#$WATER + stir#$STIR))
+echo $((export a="water#$WATER" | export b="stir#$STIR"| awk "$a + $b"))
