@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# best school ten times
+li=$(ls)
+for i in $li 
+do 
+	echo "$i" | cut -d'-' -f 2
+done
