@@ -3,12 +3,12 @@
 count=0
 while ((count < 10)); 
 do	
-	echo "Best School"
-	((count++))
 	if ((count == 9))
 	then
-		echo "Hi";
+		echo "Hi"
+		echo "Best School"
 	else
 		echo "Best School";
 	fi
+	((count++))
 done
