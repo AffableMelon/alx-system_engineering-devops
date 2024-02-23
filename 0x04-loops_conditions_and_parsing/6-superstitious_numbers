@@ -4,9 +4,9 @@ count=1
 while ((count<=20)); 
 do 
 	case $count in
-		4) echo "4 bad luck from China";;
-		9) echo "9 bad luck from Japan";;
-		17) echo "17 bad luck  from Itraly";;
+		4) echo -e "4\nbad luck from China";;
+		9) echo -e "9\nbad luck from Japan";;
+		17) echo -e "17\nbad luck  from Itraly";;
 		*) echo "$count";;
 	esac
 	((count++))
