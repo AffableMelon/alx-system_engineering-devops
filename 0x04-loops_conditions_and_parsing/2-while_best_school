@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # best school 10 times with while
 count=0
-while ((count <= 10)); do echo "Best School"; ((count++)); done
+while ((count < 10)); do echo "Best School"; ((count++)); done
