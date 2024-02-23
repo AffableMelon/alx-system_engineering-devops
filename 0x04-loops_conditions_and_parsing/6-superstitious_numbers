@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# best school twenty times but 4th 9 and 17th change
+count=1
+while ((count<=20)); 
+do 
+	case $count in
+		4) echo "4 bad luck from China";;
+		9) echo "9 bad luck from Japan";;
+		17) echo "17 bad luck  from Itraly";;
+		*) echo "$count";;
+	esac
+	((count++))
+done
