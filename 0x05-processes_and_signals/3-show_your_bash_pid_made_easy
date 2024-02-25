@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # shows pid associated with bash no ps used
 
-pgrep -flx bash
+pgrep -fl bash
