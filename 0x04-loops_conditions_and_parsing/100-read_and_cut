@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#ouptputs username, userid and user hoem dir path
+while IFSS=: read -r f1 f3 f6;
+do
+	echo "$f1 $f3 $f6"
+done < "/etc/passwd"
