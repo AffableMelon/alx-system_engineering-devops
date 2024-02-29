@@ -1,1 +1,5 @@
-x
+#!/usr/bin/env bash
+# shows listining sockets (IP + PORT) 
+# alongside thier PID and name
+
+netstat -l --program
