@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#changes home IP and facebooks too
+
+cp /etc/hosts ~/hosts.new
+echo localhost 127.0.0.2 > ~/hosts.new
+echo facebook 8.8.8.8 >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
